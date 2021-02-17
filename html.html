@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+
+</head>
+
+<body>
+   <div class="topdiv"></div>
+   <div class="centrediv">
+      <div class="centrediv__left"></div>
+      <div class="content">
+         <h1 class="title"> Регистрация </h1>
+         <form>
+            <p>
+               <select name="citi" id="" class="citistyle">
+                  <optgroup label="" placeholder="город">
+                     <option value="c1">Москва</option>
+                     <option value="c2">Питер</option>
+                     <option value="c3">Екатеринбург</option>
+                     <option value="c4">Чебоксары</option>
+                     <option value="c4">Хантымансийск</option>
+                     <option value="c5">Чукотка</option>
+                  </optgroup>
+               </select>
+            </p>
+            <p>
+               <input type="text" placeholder="Имя Фамилия" class="namestyle">
+            </p>
+            <p>
+               <input type="tel" placeholder="Телефон" class="tel">
+            </p>
+            <p>
+               <input type="text" placeholder="Комментарий" class="comm">
+            </p>
+         </form>
+         <br>
+         <h2 class="h2">Мастер-класс</h2>
+         <br>
+         <div class="radiobot">
+            <input class="radiobot" id="radio_1" name="radio" type="radio" value="1" />
+            <label for="radio_1">Экономия на онлайн-шопинге</label><br />
+            <input class="radiobot" id="radio_2" name="radio" type="radio" value="2" />
+            <label for="radio_2">Мастер класс</label><br />
+            <input class="radiobot" id="radio_3" name="radio" type="radio" value="3" />
+            <label for="radio_3">Лучшие площадки</label><br>
+            <input class="radiobot" id="radio_4" name="radio" type="radio" value="4" />
+            <label for="radio_4">Мастер-класс</label>
+         </div>
+         <br>
+         <h3 class="h3">Время проведения</h3>
+         <br>
+         <div class="checkbox">
+            <input type="checkbox" name="checkbox1" id="checkbox1" value="1" />
+            <label for="checkbox1">12:00 - 14:00</label><br>
+            <input type="checkbox" name="checkbox1" id="checkbox2" value="2" />
+            <label for="checkbox2">15:00 - 17:00</label><br>
+            <input type="checkbox" name="checkbox1" id="checkbox3" value="3" />
+            <label for="checkbox3">19:00 - 21:00</label>
+         </div>
+         <br>
+         <div class="container">
+            <label for="toggle-button" class="text">Онлайн</label>
+            <input type="checkbox" id="toggle-button" class="toggle-button">
+            <label for="toggle-button" class="text">Оффлайн</label>
+         </div>
+         <br>
+         <h4 class="h4">Сколько вы готовы заплатить за мероприятие?</h4>
+         <br>
+         <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber" class="level">
+            <input name="flevel" id="flying" type="range" min="0" max="10000" value="100" step="10">
+            <output for="flying" name="level">0 </output> ₽
+         </form>
+         <br>
+         <div class="button1">
+            <a class="botton__send" href="index.html">Отправить</a>
+            <div>
+               <p class="textbottm">Нажимая на кнопку, вы соглашаетесь с <u> Политикой обработки персональных данных
+                  </u> </p>
+            </div>
+         </div>
+      </div>
+      <div></div>
+   </div>
+   <div class="bottomdiv"></div>
+   <script src="js/script.js"></script>
+</body>
+
+</html>

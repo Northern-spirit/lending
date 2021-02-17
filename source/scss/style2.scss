@@ -1,0 +1,40 @@
+body {
+   background-color: #524e5f;
+}
+.divtop {
+   height: 228px;
+   width: 100%;
+}
+.centerdiv {
+   display: flex;
+   justify-content: space-around;
+}
+.content {
+   background-color: #3d3c5a;
+   width: 720px;
+   height: 416px;
+   border-radius: 16px;
+}
+.h1 {
+   font-size: 48px;
+   color: #fff;
+   margin: 70px 0px 0 80px;
+}
+.p1 {
+   margin: 45px 0px 0 80px;
+   font-size: 24px;
+   color: gray;
+}
+.botton {
+   border: 1px solid #ff7777;
+   background-color: #ff7777;
+   color: #fff;
+   width: 215px;
+   height: 59px;
+   font-size: 18px;
+   margin: 80px 0px 0 80px;
+   border-radius: 8px;
+   text-decoration: none;
+   outline: none;
+   user-select: none;
+}
